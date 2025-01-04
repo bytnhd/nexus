@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hakkımızda - Nexus</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="icon" href="image/icon.png">
+   <style>
+   body {
+           background-color: #313131;
+           color: #fff;
+       }
+       
+       .navbar {
+           background-color: #1a1a1a !important;
+       }
+       
+       .navbar-brand, .nav-link {
+           color: #fff !important;
+       }
+        .logo img {
+           height: 40px;
+           margin-right: 10px;
+       }
+        .card {
+           background-color: #424242;
+           border: none;
+           color: white;
+           margin-bottom: 20px;
+       }
+        .card:hover {
+           transform: translateY(-5px);
+           transition: transform 0.3s ease;
+       }
+        footer {
+           background-color: #1a1a1a;
+           color: #fff;
+           padding: 20px 0;
+           margin-top: 50px;
+       }
+       .btn{
+          color: #fff;
+       }
+       .dropdown-menu,.dropdown-item{
+        background-color: #1a1a1a;
+        color: #fff;
+       }
+       .dropdown-menu,.dropdown-item:hover{
+        background-color: gray;
+        color: #313131;
+       }
+   </style>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <div class="logo">
+                <img src="image/icon.png" alt="Nexus Logo">
+            </div>
+            Nexus
+        </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav me-auto">
+                   <li class="nav-item">
+                       <a class="nav-link" href="index.html">Ana Sayfa</a>
+                   </li>
+                   <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ürünler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="hazirsistemler.html">Hazır Sistemler</a></li>
+                            <li><a class="dropdown-item" href="laptoplar.html">Laptoplar</a></li>
+                            <li><a class="dropdown-item" href="monitorler.html">Monitör</a></li>
+                            <li><a class="dropdown-item" href="klavye-mouse.html">Klavye & Mouse</a></li>
+                        </ul>
+                   <li class="nav-item">
+                       <a class="nav-link" href="indirimler.html">İndirimler</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link active" href="hakkimizda.html">Hakkımızda</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="iletisim.html">İletişim</a>
+                   </li>
+               </ul>
+               <div class="d-flex">
+                    <a href="kayitol.html" class="btn btn-outline-light">Giriş Yap</a>
+               </div>
+           </div>
+       </div>
+   </nav>
+
+    <!-- Hakkımızda İçeriği -->
+   <div class="container mt-5">
+       <div class="about-container">
+           <h2 class="mb-4">Hakkımızda</h2>
+           <div class="row">
+               <div class="col-md-8">
+                   <p class="lead mb-4">
+                       Nexus, 2020 yılından bu yana bilgisayar donanımları ve gaming ekipmanları konusunda uzmanlaşmış, müşteri memnuniyetini ön planda tutan bir teknoloji mağazasıdır.
+                   </p>
+                   <p class="mb-4">
+                       Amacımız, teknoloji tutkunlarına en kaliteli donanım ürünlerini en uygun fiyatlarla sunmaktır. Geniş ürün yelpazemizde gaming bilgisayarlar, laptoplar, monitörler ve çevre birimleri bulunmaktadır.
+                   </p>
+                   <p class="mb-4">
+                       Deneyimli ekibimiz, müşterilerimize en doğru ürünü seçmeleri konusunda profesyonel destek sağlamaktadır. Satış öncesi ve sonrası teknik destek hizmetlerimizle her zaman yanınızdayız.
+                   </p>
+                   <p>
+                       Nexus olarak, teknoloji dünyasındaki en son yenilikleri takip ediyor ve ürün portföyümüzü sürekli güncel tutuyoruz. Güvenilir alışveriş deneyimi ve hızlı teslimat garantisiyle hizmet vermeye devam ediyoruz.
+                   </p>
+               </div>
+               <div class="col-md-4">
+                   <img src="image/about-image.jpg" alt="Nexus Mağaza" class="img-fluid rounded">
+               </div>
+           </div>
+
+           <!-- Neden Biz Bölümü -->
+           <div class="row mt-5">
+               <h3 class="mb-4">Neden Nexus?</h3>
+               <div class="col-md-3 mb-4">
+                   <div class="card h-100">
+                       <div class="card-body">
+                           <h5 class="card-title"><i class="bi bi-shield-check me-2"></i>Güvenilir Alışveriş</h5>
+                           <p class="card-text">%100 güvenli alışveriş ve orijinal ürün garantisi</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-3 mb-4">
+                   <div class="card h-100">
+                       <div class="card-body">
+                           <h5 class="card-title"><i class="bi bi-truck me-2"></i>Hızlı Teslimat</h5>
+                           <p class="card-text">Aynı gün kargo ve güvenli paketleme</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-3 mb-4">
+                   <div class="card h-100">
+                       <div class="card-body">
+                           <h5 class="card-title"><i class="bi bi-headset me-2"></i>Teknik Destek</h5>
+                           <p class="card-text">7/24 uzman teknik destek hizmeti</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-3 mb-4">
+                   <div class="card h-100">
+                       <div class="card-body">
+                           <h5 class="card-title"><i class="bi bi-cash-coin me-2"></i>Uygun Fiyat</h5>
+                           <p class="card-text">Piyasadaki en rekabetçi fiyatlar</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+           
+    <!-- Footer -->
+   <footer class="text-center">
+       <div class="container">
+           <p class="mb-0">&copy; 2024 Nexus. Tüm hakları saklıdır.</p>
+       </div>
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

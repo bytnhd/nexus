@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hazır Sistemler - Nexus</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="icon" href="image/icon.png">
+   <style>
+       body {
+           background-color: #313131;
+           color: #fff;
+       }
+       
+       .navbar {
+           background-color: #1a1a1a !important;
+       }
+       
+       .navbar-brand, .nav-link {
+           color: #fff !important;
+       }
+        .logo img {
+           height: 40px;
+           margin-right: 10px;
+       }
+        .card {
+           background-color: #424242;
+           border: none;
+           color: white;
+           margin-bottom: 20px;
+       }
+        .card:hover {
+           transform: translateY(-5px);
+           transition: transform 0.3s ease;
+       }
+        footer {
+           background-color: #1a1a1a;
+           color: #fff;
+           padding: 20px 0;
+           margin-top: 50px;
+       }
+       .btn{
+          color: #fff;
+       }
+       .dropdown-menu,.dropdown-item{
+        background-color: #1a1a1a;
+        color: #fff;
+       }
+       .dropdown-menu,.dropdown-item:hover{
+        background-color: gray;
+        color: #313131;
+       }
+   </style>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <div class="logo">
+                <img src="image/icon.png" alt="Nexus Logo">
+            </div>
+            Nexus
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                 <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ürünler
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="hazirsistemler.html">Hazır Sistemler</a></li>
+                        <li><a class="dropdown-item" href="laptoplar.html">Laptoplar</a></li>
+                        <li><a class="dropdown-item" href="monitorler.html">Monitör</a></li>
+                        <li><a class="dropdown-item" href="klavye-mouse.html">Klavye & Mouse</a></li>
+                    </ul>
+                 </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="indirimler.html">İndirimler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <a href="kayitol.html" class="btn btn-outline-light">Giriş Yap</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Ana İçerik -->
+<div class="container">
+    <div class="row mt-5">
+        <h2 class="text-center mb-4">Hazır Sistemler</h2>
+        
+        <!-- PHOENIX-3050 -->
+        <div class="col-md-3 mb-4">
+            <div class="card bg-dark text-white">
+                <img src="hazirsistemler/PHOENIX-3050.png" class="card-img-top" alt="PHOENIX-3050">
+                <div class="card-body">
+                    <h5 class="card-title">PHOENIX-3050</h5>
+                    <p class="card-text">RTX 3050 8GB GDDR6 - i5 12400F - 16GB DDR4</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">24.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PHOENIX-4060 -->
+        <div class="col-md-3 mb-4">
+            <div class="card bg-dark text-white">
+                <img src="hazirsistemler/PHOENIX-4060.jpg" class="card-img-top" alt="PHOENIX-4060">
+                <div class="card-body">
+                    <h5 class="card-title">PHOENIX-4060</h5>
+                    <p class="card-text">RTX 4060 8GB GDDR6 - i7 13700F - 32GB DDR4</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">39.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DRAGON-3060 -->
+        <div class="col-md-3 mb-4">
+            <div class="card bg-dark text-white">
+                <img src="hazirsistemler/DRAGON-3060.jpg" class="card-img-top" alt="DRAGON-3060">
+                <div class="card-body">
+                    <h5 class="card-title">DRAGON-3060</h5>
+                    <p class="card-text">RTX 3060 12GB GDDR6 - R5 5600X - 16GB DDR4</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">29.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASUS ROG STRIX G13CHR -->
+        <div class="col-md-3 mb-4">
+            <div class="card bg-dark text-white">
+                <img src="hazirsistemler/ASUS ROG STRIX G13CHR.jpg" class="card-img-top" alt="ASUS ROG STRIX G13CHR">
+                <div class="card-body">
+                    <h5 class="card-title">ASUS ROG STRIX G13CHR</h5>
+                    <p class="card-text">RTX 4070 12GB GDDR6 - i9 13900KF - 32GB DDR5</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">84.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASUS ROG STRIX G16CHR -->
+        <div class="col-md-3 mb-4">
+            <div class="card bg-dark text-white">
+                <img src="hazirsistemler/ASUS ROG STRIX G16CHR.jpg" class="card-img-top" alt="ASUS ROG STRIX G16CHR">
+                <div class="card-body">
+                    <h5 class="card-title">ASUS ROG STRIX G16CHR</h5>
+                    <p class="card-text">RTX 4080 16GB GDDR6X - i9 13900KS - 64GB DDR5</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">124.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thunder-7700XT -->
+        <!-- Kartların olduğu kısmı güncelliyoruz -->
+<div class="col-md-3 mb-4">
+    <div class="card bg-dark text-white h-100"> <!-- h-100 eklendi -->
+        <img src="hazirsistemler/Thunder-7700XT.jpg" class="card-img-top" alt="Thunder-7700XT">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Thunder-7700XT</h5>
+            <p class="card-text flex-grow-1">RX 7700XT 12GB GDDR6 - R7 7700X - 32GB DDR5</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="h5 mb-0">44.999 ₺</span>
+                <a href="#" class="btn btn-primary">İncele</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- GameBooster GB-G2616B -->
+        <div class="col-md-3 mb-4">
+            <div class="card bg-dark text-white">
+                <img src="hazirsistemler/GameBooster GB-G2616B.jpg" class="card-img-top" alt="GameBooster GB-G2616B">
+                <div class="card-body">
+                    <h5 class="card-title">GameBooster GB-G2616B</h5>
+                    <p class="card-text">RTX 4060Ti 8GB GDDR6 - i5 13600KF - 32GB DDR5</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">44.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p class="mb-0">&copy; 2024 Nexus. Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="urunler.js"></script>
+</body>
+</html>

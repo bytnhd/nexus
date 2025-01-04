@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Laptoplar - Nexus</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="icon" href="image/icon.png">
+   <style>
+       body {
+           background-color: #313131;
+           color: #fff;
+       }
+       
+       .navbar {
+           background-color: #1a1a1a !important;
+       }
+       
+       .navbar-brand, .nav-link {
+           color: #fff !important;
+       }
+        .logo img {
+           height: 40px;
+           margin-right: 10px;
+       }
+        .card {
+           background-color: #424242;
+           border: none;
+           color: white;
+           margin-bottom: 20px;
+       }
+        .card:hover {
+           transform: translateY(-5px);
+           transition: transform 0.3s ease;
+       }
+        footer {
+           background-color: #1a1a1a;
+           color: #fff;
+           padding: 20px 0;
+           margin-top: 50px;
+       }
+       .btn{
+          color: #fff;
+       }
+       .dropdown-menu,.dropdown-item{
+        background-color: #1a1a1a;
+        color: #fff;
+       }
+       .dropdown-menu,.dropdown-item:hover{
+        background-color: gray;
+        color: #313131;
+       }
+   </style>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <div class="logo">
+                <img src="image/icon.png" alt="Nexus Logo">
+            </div>
+            Nexus
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                 <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ürünler
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="hazirsistemler.html">Hazır Sistemler</a></li>
+                        <li><a class="dropdown-item" href="laptoplar.html">Laptoplar</a></li>
+                        <li><a class="dropdown-item" href="monitorler.html">Monitör</a></li>
+                        <li><a class="dropdown-item" href="klavye-mouse.html">Klavye & Mouse</a></li>
+                    </ul>
+                 </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="indirimler.html">İndirimler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <a href="kayitol.html" class="btn btn-outline-light">Giriş Yap</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Ana İçerik -->
+<div class="container">
+    <div class="row mt-5">
+        <h2 class="text-center mb-4">Laptoplar</h2>
+        
+        <!-- ASUS TUF Gaming F15 -->
+        <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white h-100">
+                <img src="image/asustufi5-8gb-3050.jpg" class="card-img-top" alt="ASUS TUF Gaming F15">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">ASUS TUF Gaming F15</h5>
+                    <p class="card-text flex-grow-1">Intel Core i5-12500H, 8GB RAM, RTX 3050, 512GB SSD, 15.6" 144Hz</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">27.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASUS TUF Gaming F15 Premium -->
+        <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white h-100">
+                <img src="image/asustufi7-16gb-4050.jpg" class="card-img-top" alt="ASUS TUF Gaming F15">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">ASUS TUF Gaming F15</h5>
+                    <p class="card-text flex-grow-1">Intel Core i7-13700H, 16GB RAM, RTX 4050, 512GB SSD, 15.6" 144Hz</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">34.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASUS TUF Gaming F15 Ultimate -->
+        <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white h-100">
+                <img src="image/asustufi7-16gb-4060.jpg" class="card-img-top" alt="ASUS TUF Gaming F15">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">ASUS TUF Gaming F15</h5>
+                    <p class="card-text flex-grow-1">Intel Core i7-13700H, 16GB RAM, RTX 4060, 1TB SSD, 15.6" 165Hz</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">39.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lenovo LOQ Gaming -->
+        <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white h-100">
+                <img src="image/lenevoloqi5-24gb-3050.jpg" class="card-img-top" alt="Lenovo LOQ Gaming">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Lenovo LOQ Gaming</h5>
+                    <p class="card-text flex-grow-1">Intel Core i5-13500H, 24GB RAM, RTX 3050, 512GB SSD, 15.6" 144Hz</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">32.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MSI Gaming -->
+        <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white h-100">
+                <img src="image/msi-r5-16gb-4050.png" class="card-img-top" alt="MSI Gaming">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">MSI Gaming</h5>
+                    <p class="card-text flex-grow-1">AMD Ryzen 5 7535HS, 16GB RAM, RTX 4050, 512GB SSD, 15.6" 144Hz</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 mb-0">33.999 ₺</span>
+                        <a href="#" class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p class="mb-0">&copy; 2024 Nexus. Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
